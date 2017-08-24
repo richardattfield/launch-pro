@@ -1,0 +1,32 @@
+{
+  "name": "launch-pro",
+  "version": "0.9.9",
+  "description": "Upcoming rocket launch schedule display",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardattfield/launch-pro.git"
+  },
+  "keywords": [
+    "API",
+    "node",
+    "express"
+  ],
+  "author": "Richard Attfield",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richardattfield/launch-pro/issues"
+  },
+  "homepage": "https://github.com/richardattfield/launch-pro#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "node-fetch": "^1.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
