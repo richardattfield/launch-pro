@@ -1,4 +1,4 @@
-// bring in node-fetch package for easy async data fetching
+// bring in 'node-fetch' package for easy async data fetching
 const fetch = require('node-fetch');
 
 const getLaunchData = (date, offset) => {

@@ -1,5 +1,5 @@
 const app = require('./app');
-const port = process.env.PORT || 8000;
+const port = 8000;
 const getLaunchData = require('./backend-app/get_data.js');
 const getCurrentDate = require('./backend-app/get_date.js');
 
@@ -19,7 +19,6 @@ app.get('/launches', (req, res) => {
     let offset = req.query.offset.toString();
     const date = getCurrentDate();
     getLaunchData(date, offset).then(launchData => {
-        console.log(launchData);
         res.send(launchData);
     });
 });
