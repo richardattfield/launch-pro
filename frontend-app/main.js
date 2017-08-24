@@ -36,7 +36,7 @@ const paginateControl = (direction) => {
     while (launchContainerElement.hasChildNodes()) {
         // need to remove all the existing divs before we build the new page of launches
         let elementToRemove = document.getElementsByClassName("launch-details")[0];
-        element.removeChild(elementToRemove);
+        launchContainerElement.removeChild(elementToRemove);
     }
     getData(currentOffset).then(data => buildUi(data));
 }

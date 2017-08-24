@@ -26,7 +26,12 @@ app.get('/launches', (req, res) => {
 
 app.get('/frontend-app/main.js', (req, res) => {
     res.sendFile('main.js', { root: './frontend-app'});
-})
+});
+
+app.get('/stylesheet.css', (req, res) => {
+    res.sendFile('stylesheet.css', { root: './public'});
+});
+
 app.get('*', (req, res) => {
     res.sendFile('index.html', { root: './public'});
 });

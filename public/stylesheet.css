@@ -1,0 +1,63 @@
+.launch-container {
+    padding: 2px 16px;
+    background-color: skyblue;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body-div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#page-control {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7em;
+}
+.control-buttons {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+}
+button {
+    margin: 10 auto
+}
+.launch-details {
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: lightblue
+}
+.launch-details a, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+.agency-name {
+    margin-left: 23px;
+}
+.launch-date {
+    margin-left: 23px;
+    margin-bottom: 20px;
+}
+
+.launch-location {
+    margin-left: 23px;
+}
+.rocket-name {
+    font-weight: bold;
+    color: black;
+    font-size: 1.2em;
+}
+
+.launch-details:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.small {
+    color: black;
+    font-size: 0.8em
+}
